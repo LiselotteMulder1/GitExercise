@@ -15,9 +15,11 @@ class Dog:
     def add_food(self, food):
         self.foods.append(food)
         
-d = Dog('Sara')
+d = Dog('Sarah')
 e = Dog('Malin')
 
 d.add_trick('roll')
 e.add_trick('sit')
 d.add_food('beef')
+
+print('test')
